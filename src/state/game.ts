@@ -16,3 +16,8 @@ export const gameOverState = atom<boolean>({
   key: "gameOverState",
   default: false,
 });
+
+export const botState = atom<boolean>({
+  key: "botState",
+  default: false,
+});
